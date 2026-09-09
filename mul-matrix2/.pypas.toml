@@ -1,5 +1,5 @@
 version = "0.1.2"
-slug = "min3values"
+slug = "mul-matrix2"
 bundle = [ "/docs/README.pdf", "/tests", "/main.py", "/vendor.py",]
 backup_on_update = [ "/main.py",]
 exclude_from_zip = [ "*.pyc", ".DS_Store", "/.git", "*.bak", "*cache*", "/args.py",]
