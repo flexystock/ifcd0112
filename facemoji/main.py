@@ -1,20 +1,21 @@
 def run(feeling: str) -> str:
-    if feeling == 'Happy':
-        return "😀"
-    elif feeling == 'Sad':
-        
-    elif feeling == 'Angry':
-    elif feeling == 'Pensive':
-    elif feeling == 'Surprised':
-
-    else
-        return nONE
-        
-
+    match feeling.title():
+        case 'Happy':
+            return "😀"
+        case 'Sad':
+            return "😔"
+        case 'Angry':
+            return "😡"
+        case 'Pensive':
+            return "🤔"
+        case 'Surprised':
+            return "😮"
+        case _:
+            return None
 
 
 # DO NOT TOUCH THE CODE BELOW
 if __name__ == '__main__':
-    import vendor
+    import ifcd0112.facemoji.vendor as vendor
 
     vendor.launch(run)
