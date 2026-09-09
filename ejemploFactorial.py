@@ -1,0 +1,9 @@
+NUM = 6
+
+RESULTADO = 1
+CONTADOR = 1
+for _ in range(NUM):
+    RESULTADO = RESULTADO * CONTADOR
+    CONTADOR = CONTADOR + 1
+
+print (RESULTADO) 
